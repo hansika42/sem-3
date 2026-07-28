@@ -84,6 +84,8 @@ function learn(){
 const promiseone= new Promise((resolve, reject)=>{
     console.log("promise done");
     resolve("operation successful");
-    let success=false;
-    if (success)
+    let success=true;
+    if (success){
+        
+    }
 })
