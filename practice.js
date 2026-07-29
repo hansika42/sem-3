@@ -52,3 +52,13 @@ arr2.push(4);
 
 console.log(arr1);
 console.log(arr2);*/
+
+//map and foreach
+let nums = [1,2,3];
+
+let a = nums.forEach((n) => n + 10);//arrow function is used 
+
+let b = nums.map((n) => n + 10);
+
+console.log(a);
+console.log(b);
